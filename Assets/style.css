@@ -1,0 +1,80 @@
+body, html, h1, h2, h3, h4, h5, h6, p, ul, li, button {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #313131;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.25;
+  background: -webkit-linear-gradient(-66deg, #09009f, #009999 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#welcome-section {
+  background: linear-gradient(to right, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 45%, rgba(243,243,243,1) 50%, rgba(252,252,252,1) 100%);
+  background-size: cover;
+  height: 100vh;
+}
+
+#welcome-section header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#welcome-section ul {
+  display: flex;
+  align-items: center;
+  font-size: 1.25em;
+  padding-right: 100px;
+}
+
+#welcome-section h1, h4, p, button {
+  position: relative;
+  top: 100px;
+  margin-left: 125px;
+  margin-right: 200px;
+}
+
+#welcome-section h4 {
+  margin-top: 15px;
+  letter-spacing: 1.5px;
+}
+
+#welcome-section p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+#welcome-section h2 {
+  padding: 20px 60px;
+  letter-spacing: 1.5px;
+}
+
+#welcome-section li {
+  list-style: none;
+  padding: 20px 45px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+#welcome-section button {
+  background-color: #DC4230;
+  color: white;
+  opacity: 0.8;
+  border: none;
+  border-radius: 3px;
+  padding: 15px 80px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+
+
